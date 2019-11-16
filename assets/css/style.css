@@ -1,0 +1,23 @@
+#myTitle {
+  color: rgb(139, 139, 139);
+  background-color: rgb(46, 51, 51);
+}
+
+.navbar {
+    border-bottom: 4px solid #6e6e6e;
+}
+
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: 650;
+    color: #6e6e6e;
+    font-size: 25px;
+    
+}
+
+.auth-image {
+    width: 210px;
+    height: auto;
+    margin-right: 30px;
+    margin-top: 15px;
+}

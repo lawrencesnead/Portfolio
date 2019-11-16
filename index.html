@@ -8,13 +8,19 @@
 
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
 <body>
   <!-- Start Nav -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-1 h1">Lawrence Snead</span>
+    <!-- <span class="navbar-brand mb-1 h1"></span> -->
+    <!-- <span class="navbar-brand mb-1 h1">Lawrence Snead</span> -->
+    <!-- <div class="nav-myTitle"><h1>Lawrence Snead</h1></div> -->
+    <div class="col-md-3 offset-md-1" id="myTitle">
+        <h1>Lawrence Snead</h1>
+    </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -33,61 +39,31 @@
         </li>
       </ul>
     </div>
+
   </nav>
   <!-- End Nav -->
-  <!-- Our rows function in containers (grid created). -->
-  <div class="container">
-
-    <!-- Our columns function in rows. -->
-    <div class="row">
-
-      <!-- Columns have 12 areas of width to work with. -->
-
-      <!-- One third of screen (4/12) -->
-      <div class="col-md-4">
-        <!-- This is column 1 of 3 -->
-      </div>
-
-      <!-- One third of screen (4/12) -->
-      <div class="col-md-4">
-        <!-- This is column 2 of 3 -->
-      </div>
-
-      <!-- One third of screen (4/12) -->
-      <div class="col-md-4">
-
-        <!-- This is column 3 of 3 -->
-      </div>
-
-      <!-- Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up) -->
-    </div>
-
-  </div>
 
 
   <!-- Creates the Overall Grid -->
   <div class="container">
 
-    <!-- First Row -->
-    <div class="row">
-
-      <!-- First (and only column) -->
-      <div class="col-md-12">
-        <h1>I'm in Column 1 of 1. I stretch the entire width. And keep going.</h1>
-      </div>
-    </div>
+    
 
     <!-- Second Row -->
     <div class="row">
 
       <!-- First of two columns -->
-      <div class="col-md-6">
-        <h1>I'm in Column 1 of 2</h1>
+      <div class="col-md-3">
+          <img src="assets/images/Me.jpg" class="auth-image" alt="Lawrence Snead">
       </div>
 
       <!-- Second of two columns -->
       <div class="col-md-6">
-        <h1>I'm in Column 2 of 2</h1>
+      
+        <p>My name name is Lawrence Snead, and I am 29 years old. I was born in Richmond, VA. I have lived in the Richmond area most of my life, moving around near by. I now live with my cat, Jasmine, in Ashland on the family farm. </p>
+
+        <p>I am currently employed as a loan processor at Presidential Bank Mortgage. They are a great company to work for, but I grow tired of the repetitive tasks every day. I have always enjoyed programming, and it's frustrating it took me this long to realize I needed to make a career out of it. When I was in 8th grade, I taught myself HTML with Microsoft Front Page and a book. I have also taken a few programming classes throughout my life, and I have a basic understanding of Python and Java. I am seeking a career change and have enrolled in a web development bootcamp to hone my skills like a fine blade.</p>
+      
       </div>
 
     </div>
@@ -95,5 +71,12 @@
   </div>
 
 </body>
+<footer>
+    <div class="container">
 
+        Copyright &copy;
+
+    </div>
+
+</footer>
 </html>
