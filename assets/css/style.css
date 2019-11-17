@@ -184,9 +184,9 @@ nav a:hover, .caption a:hover, #myTitle:hover, input[type=submit]:hover {
     } */
 }
 @media screen and (max-width:768px){
-    h1 {
+    /* h1 {
         font-size: 18px;
-    }
+    } */
     #myTitle {
         width:25%;
     }
