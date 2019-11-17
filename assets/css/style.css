@@ -187,7 +187,7 @@ nav a:hover, .caption a:hover, #myTitle:hover, input[type=submit]:hover {
     }
     .container, .work, .main-section, .wrap {
         max-width: 500px;
-        height: max-content;
+        height: auto;
         width: auto;
         display: flex;
         flex-direction: column;
