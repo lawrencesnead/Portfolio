@@ -11,6 +11,10 @@
     /* margin-bottom: auto; */
 }
 
+.nav-item {
+    text-align: right;
+}
+
 h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: 650;
@@ -22,6 +26,7 @@ h1 {
     padding-top: 20px;
     font-size: 22px;
     line-height: 40px;
+    border-bottom: 2px solid #6e6e6e;
 }
 h2 {
     font-size: 20px;
@@ -46,6 +51,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+    
 
 }
 
@@ -75,6 +81,8 @@ p:last-child {
     /* overflow: auto; */
     margin-right: 30px;
     border: 3px solid #6e6e6e;
+    margin-bottom: 147px;
+    
     
 }
 
@@ -133,7 +141,7 @@ footer {
     max-width: 960px;
     padding: 30px;
     margin-top: 5%;
-    margin-bottom: auto;
+    margin-bottom: 147px;
     background: #313131;
     border: 2px solid #6e6e6e;
 }
@@ -147,11 +155,43 @@ input[type=submit] {
     background: rgb(66, 73, 73);
     border-color: #6e6e6e
 }
-#myTitle {
-    
-}
+
 /* Hover Styling */
 
 nav a:hover, .caption a:hover, #myTitle:hover, input[type=submit]:hover {
     background-color: lightgrey;
+}
+
+@media screen and (min-width:768px){
+    h3 {
+      font-size: 15px;
+    }
+  
+  }
+@media screen and (max-width:992px) {
+  .container, .work, .main-section {
+    max-width: 700px;
+    width: auto;
+    margin-left: 10%;
+    }
+    h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:768px){
+    h1 {
+        font-size: 18px;
+    }
+    #myTitle {
+        width:25%;
+    }
+    .container, .work, .main-section {
+        max-width: 600px;
+        width: auto;
+        margin-left: 5%;
+        }
 }
