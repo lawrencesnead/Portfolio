@@ -191,6 +191,7 @@ nav a:hover, .caption a:hover, #myTitle:hover, input[type=submit]:hover {
     }
     .container, .work, .main-section {
         max-width: 600px;
+        height: auto;
         width: auto;
         margin-left: 5%;
         }
