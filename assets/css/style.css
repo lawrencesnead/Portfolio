@@ -193,6 +193,9 @@ nav a:hover, .caption a:hover, #myTitle:hover, input[type=submit]:hover {
         flex-direction: column;
         align-items: center;
         }
+    .wrap {
+        margin-bottom: 50px;
+    }
     #auth-image {
         width: 150px;
         height: auto;
