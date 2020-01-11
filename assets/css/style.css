@@ -1,6 +1,8 @@
 /* general settings */
 #myTitle {
   color: rgb(46, 51, 51);
+  width: max-content;
+  max-width: max-content;
   background: rgb(46, 51, 51);
   text-align: center;
   padding-bottom: 0;
@@ -20,6 +22,7 @@
 h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: 650;
+    text-align: center;
     color: #6e6e6e;
     padding-top: 20px;
     font-size: 22px;
@@ -44,7 +47,7 @@ body {
     background: url("../images/background.png");
 }
 
-.container {
+.container, .container-contact {
     width: 95%;
     max-width: 960px;
     margin: 0 auto;
@@ -87,6 +90,7 @@ p:last-child {
 
 .work {
     position: relative;
+    height: max-content;
     margin: 30px 0 30px;
     /* overflow: auto; */
     margin-right: 30px;
@@ -96,14 +100,20 @@ p:last-child {
     
 }
 
+.img-fluid {
+    height: auto;
+    max-width: 100%;
+}
+
 .caption {
     text-align: center;
-    position: absolute;
+    /* position: absolute;
     left: 0;
     top: 100;
     right: 0;
-    bottom: 0;
-    margin: auto;
+    bottom: 0; */
+    /* margin: auto; */
+    margin-top: max-content;
     width: 100%;
     height: max-content;
     background:rgb(46, 51, 51);
@@ -119,9 +129,9 @@ html, body {
     height: 100%;
 }
 
-.wrap {
+.wrap, .wrap-contact {
     /* background-color: rgb(46, 51, 51); */
-    min-height: 100%;
+    min-height: 100vh;
     /* equal to footer height */
     margin-bottom: -115px;
     width: 960px;
@@ -146,7 +156,7 @@ footer {
     width: 100%;
 }
 
-.main-section {
+.main-section, .main-section-contact {
     width: 100%;
     max-width: 960px;
     padding: 30px;
@@ -181,12 +191,21 @@ nav a:hover, .caption a:hover, #myTitle:hover, input[type=submit]:hover {
   
   }
 @media screen and (max-width:992px) {
-  .container, .container1, .work, .main-section, .wrap {
+  .container, .container1, .work, .main-section, .wrap, .caption {
     max-width: 700px;
     width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     }
+    .container-contact, .main-section-contact, .wrap-contact {
+        display: flex;
+        width: 90vw;
+        height: max-content;
+        flex-direction: column;
+    }
+
     h1 {
-        text-align: center;
         font-size: 28px;
     }
     p {
@@ -204,12 +223,15 @@ nav a:hover, .caption a:hover, #myTitle:hover, input[type=submit]:hover {
         font-size: 25px;
     }
     h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
     #myTitle {
-        width:25%;
+        clear: both;
+        position: relative;
+        float: left; 
+        
     }
-    .container, .container1, .work, .main-section, .wrap {
+    .container, .container1, .work, .main-section, .wrap, .caption {
         max-width: 500px;
         width: auto;
         display: flex;
@@ -224,3 +246,4 @@ nav a:hover, .caption a:hover, #myTitle:hover, input[type=submit]:hover {
     }
 
 }
+
