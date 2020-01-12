@@ -158,6 +158,7 @@ footer {
 
 .main-section, .main-section-contact {
     width: 100%;
+    height: max-content;
     max-width: 960px;
     padding: 30px;
     margin-top: 5%;
